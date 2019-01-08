@@ -79,3 +79,7 @@ dist
   ├─page1.html
   └─page2.html
 ```
+
+## 2019年1月8日09:27:58 更新功能
+
+- 配置热启动，应有需要的朋友要求，就给配置上了，如果你不喜欢（我就不是很喜欢~哈哈~），可以package.json中将serve: "vue-cli-service serve --open" 中的 "--open"删除即可
