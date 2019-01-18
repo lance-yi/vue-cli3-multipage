@@ -128,16 +128,16 @@ module.exports = {
 		before: app => {}
   },
   // css相关配置
-  css: {
-    extract: true, // 是否使用css分离插件 ExtractTextPlugin
-    sourceMap: false, // 开启 CSS source maps?
-    loaderOptions: {
-      less: {
-        javascriptEnabled: true
-      }
-    }, // css预设器配置项
-    modules: false // 启用 CSS modules for all css / pre-processor files.
-  },
+//   css: {
+//     extract: true, // 是否使用css分离插件 ExtractTextPlugin
+//     sourceMap: false, // 开启 CSS source maps?
+//     loaderOptions: {
+//       less: {
+//         javascriptEnabled: true
+//       }
+//     }, // css预设器配置项
+//     modules: false // 启用 CSS modules for all css / pre-processor files.
+//   },
   // 是否为 Babel 或 TypeScript 使用 thread-loader。该选项在系统的 CPU 有多于一个内核时自动启用，仅作用于生产构建。
   parallel: require('os').cpus().length > 1,
   
